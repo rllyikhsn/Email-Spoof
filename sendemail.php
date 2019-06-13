@@ -18,23 +18,24 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'ssl://smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'xxx@gmail.com';                     // SMTP username
-    $mail->Password   = 'xxx';                               // SMTP password
+    $mail->Username   = 'formpengisiancsf@gmail.com';                     // SMTP username
+    $mail->Password   = 'Csfjuni2019';                               // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 465;                                    // TCP port to connect to
 
     //Recipients
-	$mail->setFrom('xxx@gmail.com', 'Creator');
+    $mail->setFrom('datakhusus40@gmail.com', 'CS Finance');
 	for ($x = 1; $x <  sizeof($the_big_array); $x++){
 		$email = $the_big_array[$x][3];
-		$mail->addAddress($email,$email);
+		$mail->addAddress($email,$the_big_array[$x][1]);
 		$mail->Subject = 'Here is the subject';
-		$message = $the_big_array[$x][2];
-		$mail->Body    = $message;	
-    	echo 'Message has been sent';	
+		$message = $the_big_array[$x][1];
+        $mail->Body    = $message;	
+        echo $mail->Body;
+        echo 'Message has been sent';
+        $mail->send();
 	}
 	
-	$mail->send();
     //$mail->addAddress('xxx@gmail.com', 'Rully Ikhsan');     // Add a recipient
     /*$mail->addAddress('ellen@example.com');               // Name is optional
     $mail->addReplyTo('info@example.com', 'Information');
@@ -52,6 +53,7 @@ try {
 
     //$mail->send();
     //echo 'Message has been sent';
+
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
