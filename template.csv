@@ -1,25 +1,5 @@
-npm,nama,username,email_ui,email_non_ui,status_prodi,tanggal_lahir,telp_hp,telp_rumah,is_mk_spesial
-1606748842,Mahasiswa Pratama Kedua,mahasiswa11,mahasiswa11@ui.ac.id,mahasiswa11@gmail.com,S1 Ilkom Reguler,4/12/2005,81218000900,8648379,TRUE
-1553141442,Dwi Mahasiswa Rajin,mahasiswa21,mahasiswa21@ui.ac.id,mahasiswa21@gmail.com,S1 SI Reguler,5/12/2003,81238333213,83961550,FALSE
-1232424127,Mahasiswa Tri Empat,mahasiswa31,mahasiswa31@ui.ac.id,mahasiswa31@gmail.com,S1 Ilkom Pararel,12/12/1998,83232133231,86757383,TRUE
-1232323329,Catur Mahasiswa Kuda,mahasiswa41,mahasiswa41@ui.ac.id,mahasiswa41@gmail.com,S2 MIK,16/11/1999,85685848383,85747454,FALSE
-1414414110,Panca Mahasiswa Lima,mahasiswa51,mahasiswa51@ui.ac.id,mahasiswa51@gmail.com,DIK,14/03/2001,81273747576,85745845,TRUE
-1606748842,Mahasiswa Pratama Kedua,mahasiswa11,mahasiswa11@ui.ac.id,mahasiswa11@gmail.com,S1 Ilkom Reguler,4/12/2005,81218000900,8648379,TRUE
-1553141442,Dwi Mahasiswa Rajin,mahasiswa21,mahasiswa21@ui.ac.id,mahasiswa21@gmail.com,S1 SI Reguler,5/12/2003,81238333213,83961550,FALSE
-1232424127,Mahasiswa Tri Empat,mahasiswa31,mahasiswa31@ui.ac.id,mahasiswa31@gmail.com,S1 Ilkom Pararel,12/12/1998,83232133231,86757383,TRUE
-1232323329,Catur Mahasiswa Kuda,mahasiswa41,mahasiswa41@ui.ac.id,mahasiswa41@gmail.com,S2 MIK,16/11/1999,85685848383,85747454,FALSE
-1414414110,Panca Mahasiswa Lima,mahasiswa51,mahasiswa51@ui.ac.id,mahasiswa51@gmail.com,DIK,14/03/2001,81273747576,85745845,TRUE
-1606748842,Mahasiswa Pratama Kedua,mahasiswa11,mahasiswa11@ui.ac.id,mahasiswa11@gmail.com,S1 Ilkom Reguler,4/12/2005,81218000900,8648379,TRUE
-1553141442,Dwi Mahasiswa Rajin,mahasiswa21,mahasiswa21@ui.ac.id,mahasiswa21@gmail.com,S1 SI Reguler,5/12/2003,81238333213,83961550,FALSE
-1232424127,Mahasiswa Tri Empat,mahasiswa31,mahasiswa31@ui.ac.id,mahasiswa31@gmail.com,S1 Ilkom Pararel,12/12/1998,83232133231,86757383,TRUE
-1232323329,Catur Mahasiswa Kuda,mahasiswa41,mahasiswa41@ui.ac.id,mahasiswa41@gmail.com,S2 MIK,16/11/1999,85685848383,85747454,FALSE
-1414414110,Panca Mahasiswa Lima,mahasiswa51,mahasiswa51@ui.ac.id,mahasiswa51@gmail.com,DIK,14/03/2001,81273747576,85745845,TRUE
-1606748842,Mahasiswa Pratama Kedua,mahasiswa11,mahasiswa11@ui.ac.id,mahasiswa11@gmail.com,S1 Ilkom Reguler,4/12/2005,81218000900,8648379,TRUE
-1553141442,Dwi Mahasiswa Rajin,mahasiswa21,mahasiswa21@ui.ac.id,mahasiswa21@gmail.com,S1 SI Reguler,5/12/2003,81238333213,83961550,FALSE
-1232424127,Mahasiswa Tri Empat,mahasiswa31,mahasiswa31@ui.ac.id,mahasiswa31@gmail.com,S1 Ilkom Pararel,12/12/1998,83232133231,86757383,TRUE
-1232323329,Catur Mahasiswa Kuda,mahasiswa41,mahasiswa41@ui.ac.id,mahasiswa41@gmail.com,S2 MIK,16/11/1999,85685848383,85747454,FALSE
-1414414110,Panca Mahasiswa Lima,mahasiswa51,mahasiswa51@ui.ac.id,mahasiswa51@gmail.com,DIK,14/03/2001,81273747576,85745845,TRUE
-1606748842,Mahasiswa Pratama Kedua,mahasiswa11,mahasiswa11@ui.ac.id,mahasiswa11@gmail.com,S1 Ilkom Reguler,4/12/2005,81218000900,8648379,TRUE
-1553141442,Dwi Mahasiswa Rajin,mahasiswa21,mahasiswa21@ui.ac.id,mahasiswa21@gmail.com,S1 SI Reguler,5/12/2003,81238333213,83961550,FALSE
-1232424127,Mahasiswa Tri Empat,mahasiswa31,mahasiswa31@ui.ac.id,mahasiswa31@gmail.com,S1 Ilkom Pararel,12/12/1998,83232133231,86757383,TRUE
-1232323329,Catur Mahasiswa Kuda,mahasiswa41,mahasiswa41@ui.ac.id,mahasiswa41@gmail.com,S2 MIK,16/11/1999,85685848383,85747454,FALSE
+no,nama,message,email
+1,CSF,message1,formpengisiancsf@gmail.com
+2,RIYANZ,message2,riyanzz90@gmail.com
+3,Data,message3,datakhusus40@gmail.com
+4,ALFIN,message4,alvinbenedictus99@gmail.com
