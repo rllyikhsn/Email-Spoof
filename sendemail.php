@@ -32,19 +32,19 @@ try {
             $message = $the_big_array[$x][1];
             $mail->Body    = $message;
             $bcc = $_POST['bcc'.$x];
-            //$emailbcc = explode(';',$bcc);
-            	
+            
             echo $mail->Body;
             echo '<br>';
             echo $email;
             echo '<br>';
-            echo print_r($bcc);
+            echo $bcc;
             echo '<br>';
             echo '------------------------------';
             echo '<br>';
             
-            $mail->addBCC('bcc@example.com');
-            //$mail->send();
+            //$mail->addBCC('bcc@example.com');
+            $mail->send();
+            $mail->clearAllRecipients();
         }
     }
 
@@ -54,15 +54,18 @@ try {
         $pesan = $_POST['isi_pesan'];
         $bcc = $_POST['bcc'];
         $array = array($bcc);
-
+        $mail->addReplyTo('formpengisiancsf@gmail.com', 'CS Finance');
         $mail->addAddress($penerima,$penerima);
-        $mail->addBCC($penerima);
-        $mail->addCC($penerima);
-        $mail->addReplyTo('formpengisiancsf@gmail.com', 'Information');
+        // Menambahkan cc atau bcc , keduanya tidak boleh dengan alamat email yang sama
+        $mail->addCC('datakhusus41@gmail.com');
+        $mail->addBCC('datakhusus40@gmail.com');
+        //$mail->addCC($penerima);
+        //$mail->addReplyTo('formpengisiancsf@gmail.com', 'Information');
         $mail->Subject = $subjek;
         $mail->Body    = $pesan;
+        
+        $mail->send();
         try{
-            $mail->send();
             /*echo '<script type="text/javascript">';
             echo 'alert("Pesan berhasil dikirim !")';
             echo '</script>';
@@ -72,6 +75,7 @@ try {
         }
         
     }
+
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

@@ -1,5 +1,5 @@
 <?php
-$filename = 'upload/template_mahasiswa.csv';
+$filename = 'upload/template.csv';
 
 if(file_exists($filename)){
 	
