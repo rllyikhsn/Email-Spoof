@@ -31,18 +31,18 @@ try {
             $mail->Subject = 'Here is the subject';
             $message = $the_big_array[$x][1];
             $mail->Body    = $message;
-            $bcc = $_POST['bcc'];
+            $bcc = $_POST['bcc'.$x];
             //$emailbcc = explode(';',$bcc);
-            echo '<br>';	
+            	
             echo $mail->Body;
             echo '<br>';
             echo $email;
             echo '<br>';
-            echo $bcc;
-            echo '<br>';
-            //echo (print_r($emailbcc));
+            echo print_r($bcc);
             echo '<br>';
             echo '------------------------------';
+            echo '<br>';
+            
             $mail->addBCC('bcc@example.com');
             //$mail->send();
         }
@@ -54,7 +54,6 @@ try {
         $pesan = $_POST['isi_pesan'];
         $bcc = $_POST['bcc'];
         $array = array($bcc);
-        
 
         $mail->addAddress($penerima,$penerima);
         $mail->addBCC($penerima);
