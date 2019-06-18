@@ -62,7 +62,11 @@ try {
         //$mail->addCC($penerima);
         //$mail->addReplyTo('formpengisiancsf@gmail.com', 'Information');
         $mail->Subject = $subjek;
-        $mail->Body    = $pesan;
+        //if message normal
+        //$mail->Body    = $pesan;
+        //if message html
+        $mail->MsgHTML($pesan);
+        $mail->IsHTML(true); 
         
         $mail->send();
         try{
